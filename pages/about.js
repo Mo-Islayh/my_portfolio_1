@@ -1,12 +1,12 @@
 import Footer from "../components/footer"
 import Header from "../components/header"
-import Home from "../components/pages/home"
+import About from "../components/pages/about"
 
-export default function Index() {
+export default function AboutPage() {
   return (
     <div className="w-full h-full">
       <Header />
-      <Home />
+      <About />
       <Footer />
     </div>
   )

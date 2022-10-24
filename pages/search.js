@@ -1,12 +1,11 @@
 import Footer from "../components/footer"
 import Header from "../components/header"
-import Home from "../components/pages/home"
 
-export default function Index() {
+export default function Search() {
   return (
-    <div className="w-full h-full">
+    <div>
       <Header />
-      <Home />
+      <section>body</section>
       <Footer />
     </div>
   )
