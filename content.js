@@ -68,6 +68,7 @@ export const Posts = [
       "styled-components",
       "Auth",
       "Recoil",
+      "Ant Design",
     ],
     notes: [
       "Created using React JS",
