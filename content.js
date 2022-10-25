@@ -4,9 +4,9 @@ export const Posts = [
     webSite: "https://market-jo-v1.herokuapp.com/",
     youtubeVid: "https://www.youtube.com/embed/iQe5ixN7JkA",
     img: "/images/market.png",
-    title: "Market , A full store-order experience, Talabat Alternative!",
+    title: "Talabat Alternative! , A full store-order experience !",
     description:
-      "A comprehensive site for ordering products, especially food via the Internet, that allows the administrator to add, remove and modify menus from the control panel, receive orders in real time, close the reception of orders and set the opening date, and much more!",
+      "A comprehensive site for ordering products, especially food on the Internet, it allows the admin to add, remove and modify products and items from the control panel, receive orders in real time, close the store (stop receiving orders) and set the opening date, and much more!",
     tags: [
       "ReactJS",
       "JavaScript",
