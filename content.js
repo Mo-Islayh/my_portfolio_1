@@ -1,12 +1,59 @@
+import { DiCss3, DiFirebase, DiJavascript1 } from "react-icons/di"
+import {
+  SiApollographql,
+  SiExpress,
+  SiFirebase,
+  SiGraphql,
+  SiJsonwebtokens,
+  SiMongodb,
+  SiPostgresql,
+  SiRedux,
+  SiReduxsaga,
+  SiSocketdotio,
+  SiStyledcomponents,
+  SiTailwindcss,
+  SiTypescript,
+  SiWebrtc,
+} from "react-icons/si"
+import { AiFillHtml5 } from "react-icons/ai"
+import { GrReactjs } from "react-icons/gr"
+import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb"
+import { FaReact } from "react-icons/fa"
+import { IoLogoNodejs } from "react-icons/io"
+
 export const Posts = [
+  {
+    id: "3",
+    webSite: "https://lang-speakup.herokuapp.com/",
+    youtubeVid: "https://youtu.be/Hhb2CQ9i-Vc",
+    img: "/images/speakup.png",
+    title: "Speak-Up",
+    description:
+      "Voice-Chat App, language exchange and practice, Fully functional voice and chat app, create custom groups, add and remove friends, see friends in online groups, and more great features.",
+    tags: [
+      "ReactJS",
+      "JavaScript",
+      "NodeJS",
+      "Express",
+      "REST API",
+      "Mongodb",
+      "Socket.io",
+      "webRTC",
+      "JWT",
+      "styled-components",
+      "Auth",
+      "Recoil",
+      "Ant Design",
+    ],
+  },
   {
     id: "1",
     webSite: "https://market-jo-v1.herokuapp.com/",
-    youtubeVid: "https://www.youtube.com/embed/iQe5ixN7JkA",
+    youtubeVid: "https://youtu.be/iQe5ixN7JkA",
     img: "/images/market.png",
-    title: "Talabat Alternative! , A full store-order experience !",
+    title: "Talabat Alternative",
     description:
-      "A comprehensive site for ordering products, especially food on the Internet, it allows the admin to add, remove and modify products and items from the control panel, receive orders in real time, close the store (stop receiving orders) and set the opening date, and much more!",
+      "A full Store-Order experience, comprehensive site for ordering products especially food on the Internet, it allows the admin to add, remove and modify products and items from the control panel, receive orders in real time, close the store (stop receiving orders) and set the opening date, and much more!",
     tags: [
       "ReactJS",
       "JavaScript",
@@ -17,18 +64,15 @@ export const Posts = [
       "Firebase",
       "Recoil",
     ],
-    notes: [
-      "The app is still in development, and there are a few things I want to add before turning it into a product for sale",
-    ],
   },
   {
     id: "2",
     webSite: "https://free4english.com",
-    youtubeVid: "https://www.youtube.com/embed/ei28yAXxPFk",
+    youtubeVid: "https://youtu.be/bajt1zeD5ZI",
     img: "/images/free4english.png",
-    title: "free4english, 3600 essential English words",
+    title: "Free4English",
     description:
-      "a web app that helps people to study the most common English words in a modren way for free",
+      "A WebApp that contains the 3600 essential English words, it helps people to study the most common English words in a modren way for free",
     tags: [
       "ReactJS",
       "NextJS",
@@ -38,48 +82,15 @@ export const Posts = [
       "REST API",
       "Tailwind",
     ],
-    notes: [],
-  },
-  {
-    id: "3",
-    webSite: "https://lang-speakup.herokuapp.com/",
-    youtubeVid: "https://www.youtube.com/embed/Hhb2CQ9i-Vc",
-    img: "/images/speakup.png",
-    title: "SpeakUp , Voice-Chat App , language exchange and practice",
-    description:
-      "Fully functional voice and chat app, create custom groups, add and remove friends, see friends in online groups, and more great features.",
-    tags: [
-      "ReactJS",
-      "JavaScript",
-      "NodeJS",
-      "Express",
-      "REST API",
-      "Mongodb",
-      "socket.io",
-      "webRTC",
-      "JWT",
-      "styled-components",
-      "Auth",
-      "Recoil",
-      "Ant Design",
-    ],
-    notes: [
-      "Created using React JS",
-      "Ability to add and remove friends",
-      "Auth with every request",
-      "MongoDB as a data base",
-      "Recoil for State Management",
-      "Native WebRTC API",
-    ],
   },
   {
     id: "4",
     webSite: "https://yt-clone-ecru.vercel.app/",
-    youtubeVid: "https://www.youtube.com/embed/MMsx4loOZ6U",
+    youtubeVid: "https://youtu.be/MMsx4loOZ6U",
     img: "/images/yt-clone.png",
-    title: "youtube clone using next.js for front and backend",
+    title: "Youtube Clone",
     description:
-      "A complete YouTube experience from SignUp to uploading videos to subscribing to channels to liking videos to Commenting to Searching to Some other cool features",
+      "By using next.js for front and backend, i built a complete YouTube experience.. Sign-up Sign-in, uploading videos, subscribing to channels, liking videos,Commenting, Searching and Some other cool features",
     tags: [
       "ReactJS",
       "NextJS",
@@ -92,38 +103,103 @@ export const Posts = [
       "JWT",
       "Mongodb",
     ],
-    notes: [
-      "Created using Next JS",
-      "Encrypt password after SigningUp",
-      "Cookies for authorization",
-      "MongoDB as a data base",
-      "Firebase for Auth and Storage",
-      "Redux for State Management",
-    ],
   },
 ]
 
-export const Categories = [
-  "ReactJS",
-  "NextJS",
-  "JavaScript",
-  "NodeJS",
-  "Express",
-  "GraphQL",
-  "REST API",
-  "Mongodb",
-  "socket.io",
-  "webRTC",
-  "JWT",
-  "Tailwind",
-  "TypeScript",
-  "Firebase",
-  "Redux",
-  "styled-components",
-  "Auth",
-  "React-Native",
-  "Recoil",
-  "React Query",
+export const Skills = [
+  {
+    name: "JavaScript",
+    icon: <DiJavascript1 />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
+  },
+  {
+    name: "HTML",
+    icon: <AiFillHtml5 />,
+  },
+  {
+    name: "CSS",
+    icon: <DiCss3 />,
+  },
+  {
+    name: "ReactJS",
+    icon: <GrReactjs />,
+  },
+  {
+    name: "NextJS",
+    icon: <TbBrandNextjs />,
+  },
+  {
+    name: "React-Native",
+    icon: <FaReact />,
+  },
+  {
+    name: "Tailwind",
+    icon: <SiTailwindcss />,
+  },
+  {
+    name: "NodeJS",
+    icon: <IoLogoNodejs />,
+  },
+
+  {
+    name: "Express",
+    icon: <SiExpress />,
+  },
+  {
+    name: "GraphQL",
+    icon: <SiGraphql />,
+  },
+  {
+    name: "Apollo Client",
+    icon: <SiApollographql />,
+  },
+  {
+    name: "REST API",
+    icon: <i className="">API</i>,
+  },
+  {
+    name: "Mongodb",
+    icon: <SiMongodb />,
+  },
+  {
+    name: "Postgres",
+    icon: <SiPostgresql />,
+  },
+  {
+    name: "Firebase",
+    icon: <SiFirebase />,
+  },
+  {
+    name: "Socket.io",
+    icon: <SiSocketdotio />,
+  },
+  {
+    name: "webRTC",
+    icon: <SiWebrtc />,
+  },
+  {
+    name: "JWT",
+    icon: <SiJsonwebtokens />,
+  },
+  {
+    name: "styled-components",
+    icon: <SiStyledcomponents />,
+  },
+  {
+    name: "Recoil",
+    icon: <SiReduxsaga />,
+  },
+  {
+    name: "Redux",
+    icon: <SiRedux />,
+  },
+  {
+    name: "React Query",
+    icon: <TbBrandReactNative />,
+  },
 ]
 
 export const about = [

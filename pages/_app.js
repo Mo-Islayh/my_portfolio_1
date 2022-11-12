@@ -4,7 +4,7 @@ import Script from "next/script"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="w-full">
       <Head>
         <title>Mo Islayh</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       <Script id="GoogleAnalytics" strategy="lazyOnload">
         {`
 				var host = window.location.hostname;
-				if (host !== "aa") {
+				if (host !== "localhost") {
 		
 			  window.dataLayer = window.dataLayer || [];
 			  function gtag() { dataLayer.push(arguments); }
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       </Script>
 
       <Component {...pageProps} />
-    </>
+    </div>
   )
 }
 
