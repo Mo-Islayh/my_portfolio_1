@@ -5,6 +5,7 @@ import {
   SiFirebase,
   SiGraphql,
   SiJsonwebtokens,
+  SiMaterialui,
   SiMongodb,
   SiPostgresql,
   SiRedux,
@@ -15,10 +16,10 @@ import {
   SiTypescript,
   SiWebrtc,
 } from "react-icons/si"
-import { AiFillHtml5 } from "react-icons/ai"
+import { AiFillHtml5, AiOutlineAntDesign } from "react-icons/ai"
 import { GrReactjs } from "react-icons/gr"
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb"
-import { FaReact } from "react-icons/fa"
+import { FaBootstrap, FaReact } from "react-icons/fa"
 import { IoLogoNodejs } from "react-icons/io"
 
 export const Posts = [
@@ -140,6 +141,18 @@ export const Skills = [
     icon: <SiTailwindcss />,
   },
   {
+    name: "Ant Design",
+    icon: <AiOutlineAntDesign />,
+  },
+  {
+    name: "Material UI",
+    icon: <SiMaterialui />,
+  },
+  {
+    name: "Bootstrap",
+    icon: <FaBootstrap />,
+  },
+  {
     name: "NodeJS",
     icon: <IoLogoNodejs />,
   },
@@ -157,8 +170,23 @@ export const Skills = [
     icon: <SiApollographql />,
   },
   {
+    name: "Apollo Server",
+    icon: <SiApollographql />,
+  },
+  {
     name: "REST API",
-    icon: <i className="">API</i>,
+    icon: (
+      <div
+        style={{
+          border: "1px solid #fff",
+          borderRadius: "50%",
+          fontSize: "8px",
+          padding: "2px",
+        }}
+      >
+        API
+      </div>
+    ),
   },
   {
     name: "Mongodb",

@@ -9,7 +9,7 @@ const Projects = () => {
     if (x) {
       return x.icon
     }
-    return tag
+    return <div className="text-xs select-none">{tag}</div>
   }
 
   return (
@@ -37,11 +37,14 @@ const Projects = () => {
             </div>
           </div>
           <div className="mb-3">{post.description}</div>
+          <div className="mb-1 font-medium  text-1xl border border-dashed rounded-lg border-slate-500 w-fit p-1">
+            Technologies used
+          </div>
           <div className="mb-3 flex flex-wrap gap-2 items-center">
             {post.tags.map((tag, _id) => (
               <div className="relative inline-block group" key={_id}>
                 {FindIcon(tag)}
-                <div className="bottom-full left-1/2 -ml-16 group-hover:visible invisible absolute z-10 w-32 bg-black text-white rounded-xl p-3">
+                <div className="bottom-full  group-hover:visible invisible absolute z-10 w-fit bg-black text-white rounded-xl p-3 whitespace-nowrap">
                   {tag}
                 </div>
               </div>

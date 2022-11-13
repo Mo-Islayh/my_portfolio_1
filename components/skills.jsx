@@ -12,18 +12,6 @@ const SkillsPage = () => {
             <div>{skill.name}</div>
           </div>
         ))}
-        {/* {Skills.map((type, _id) => (
-          <div key={_id} className="mb-4">
-            <div className="font-medium text-white text-1xl">{type.name}</div>
-            <div className="flex gap-2 flex-wrap">
-              {type.Skills.map((skill, _id) => (
-                <div key={_id}>
-                  <div>{skill}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))} */}
       </div>
     </div>
   )
