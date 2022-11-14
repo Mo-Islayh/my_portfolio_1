@@ -13,7 +13,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="flex flex-col max-w-screen-md m-auto">
+    <div className="flex flex-col max-w-screen-md m-auto w-full">
       <div className="mb-4 font-medium text-white text-2xl">Projects</div>
       {Posts.map((post, _id) => (
         <div key={_id} className="flex flex-col">
@@ -24,7 +24,7 @@ const Projects = () => {
             <div className="flex gap-3">
               <LinkButton
                 goTo={post.webSite}
-                name={"Preview"}
+                name={"Link"}
                 type={"link"}
                 isContact={false}
               />

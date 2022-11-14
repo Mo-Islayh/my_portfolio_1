@@ -1,9 +1,9 @@
 import React from "react"
 import LinkButton from "./LinkButton"
 
-const Footer = () => {
+const Contact = () => {
   return (
-    <div className="max-w-screen-md m-auto">
+    <div className="max-w-screen-md m-auto w-full">
       <h3 className="mb-4 font-medium text-white text-2xl">Contact</h3>
       <div className="mb-5 flex gap-4">
         <LinkButton
@@ -22,7 +22,7 @@ const Footer = () => {
 
       <div className="mb-5 flex gap-4 flex-wrap">
         <h3 className=" font-medium text-white text-1xl bg-indigo-700 w-fit py-3 px-5 rounded-xl">
-          <a href="mailto:mojo4business@gmail.com">mojo4business@gmail.com</a>
+          <a href="mailto:moislayh@gmail.com">moislayh@gmail.com</a>
         </h3>
         <div className=" font-medium text-white text-1xl bg-indigo-700 w-fit py-3 px-5 rounded-xl">
           <a
@@ -37,7 +37,7 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Contact
 
 const JordanFlag = () => {
   return (

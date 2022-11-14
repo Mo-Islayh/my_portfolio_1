@@ -3,7 +3,7 @@ import { Skills } from "../content"
 
 const SkillsPage = () => {
   return (
-    <div className="max-w-screen-md m-auto">
+    <div className="w-full max-w-screen-md m-auto">
       <div className="mb-4 font-medium text-white text-2xl">Skills</div>
       <div className="flex gap-4 flex-wrap">
         {Skills.map((skill, _id) => (
