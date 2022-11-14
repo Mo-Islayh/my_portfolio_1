@@ -4,7 +4,7 @@ import PicOfMe from "../images/me.jpg"
 
 const Header = () => {
   return (
-    <div className="w-full max-w-screen-md m-auto  flex justify-between gap-4 items-center">
+    <div className="w-full max-w-screen-md m-auto  flex justify-between gap-4 items-center ">
       <div>
         <h1 className="text-white mb-4 text-5xl sm:text-6xl font-extrabold tracking-tight">
           Mo Islayh

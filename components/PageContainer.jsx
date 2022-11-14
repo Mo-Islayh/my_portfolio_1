@@ -10,7 +10,7 @@ const Container = ({ children }) => {
 }
 const Section = ({ children }) => {
   return (
-    <section className="px-4 sm:px-14 flex flex-col gap-14 justify-center w-full">
+    <section className="px-4 sm:px-14 flex flex-col gap-14 justify-center w-full first:mt-24">
       {children}
     </section>
   )

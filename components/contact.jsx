@@ -21,17 +21,18 @@ const Contact = () => {
       </div>
 
       <div className="mb-5 flex gap-4 flex-wrap">
-        <h3 className=" font-medium text-white text-1xl bg-indigo-700 w-fit py-3 px-5 rounded-xl">
-          <a href="mailto:moislayh@gmail.com">moislayh@gmail.com</a>
-        </h3>
-        <div className=" font-medium text-white text-1xl bg-indigo-700 w-fit py-3 px-5 rounded-xl">
-          <a
-            href="tel:+962790702148"
-            className="flex justify-center items-center gap-4"
-          >
-            <p>+962 790702148</p> <JordanFlag />
-          </a>
-        </div>
+        <a
+          href="mailto:moislayh@gmail.com"
+          className="flex justify-center items-center gap-4 font-medium text-white text-1xl bg-indigo-600 hover:bg-indigo-700  w-fit py-3 px-5 rounded-xl"
+        >
+          <p>moislayh@gmail.com</p>
+        </a>
+        <a
+          href="tel:+962790702148"
+          className="flex justify-center items-center gap-4 font-medium text-white text-1xl bg-indigo-600 hover:bg-indigo-700  w-fit py-3 px-5 rounded-xl"
+        >
+          <p>+962 790702148</p> <JordanFlag />
+        </a>
       </div>
     </div>
   )
