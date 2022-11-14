@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { useEffect } from "react"
 import State from "./state"
 
 const Nav = () => {
@@ -8,18 +7,17 @@ const Nav = () => {
   // }
 
   return (
-    <div className=" w-full flex justify-center   ">
-      <nav className="bg-[#1e293b] w-full h-24 max-w-screen-md  fixed top-0    flex items-center justify-start flex-col z-10 ">
+    <div className=" w-full flex justify-center  flex-wrap ">
+      <nav className="bg-[#1e293b] w-full h-24 max-w-screen-md   top-0    flex items-center justify-start flex-col z-10  ">
         <div className="flex  w-full p-6">
           <Button title="Home" route="/" />
           <Button title="About" route="/about" />
           <Button title="Contact" route="/contact" />
         </div>
-        <div className="w-full bg-gradient-to-r from-blue-400 to-blue-600 h-1">
-          <div className=" bg-indigo-500 h-1 w-1/2" />
+        <div className="w-full bg-gradient-to-r from-indigo-500 to-blue-600 h-1">
+          {/* <div className=" bg-indigo-500 h-1 w-1/2" /> */}
         </div>
       </nav>
-
       <State />
     </div>
   )
