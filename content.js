@@ -25,7 +25,7 @@ import { IoLogoNodejs } from "react-icons/io"
 export const Posts = [
   {
     id: "3",
-    webSite: "https://lang-speakup.herokuapp.com/",
+    webSite: "https://speak-up.up.railway.app/",
     youtubeVid: "https://youtu.be/Hhb2CQ9i-Vc",
     img: "/images/speakup.png",
     title: "Speak-Up",
@@ -49,7 +49,7 @@ export const Posts = [
   },
   {
     id: "1",
-    webSite: "https://market-jo-v1.herokuapp.com/",
+    webSite: "https://market.up.railway.app/",
     youtubeVid: "https://youtu.be/iQe5ixN7JkA",
     img: "/images/market.png",
     title: "Talabat Alternative",
