@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import PicOfMe from "../images/me.jpg"
+import PicOfMe from "../images/me1.jpg"
 
 const Header = () => {
   return (

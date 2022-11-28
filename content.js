@@ -51,7 +51,7 @@ export const Posts = [
     id: "1",
     webSite: "https://market.up.railway.app/",
     youtubeVid: "https://youtu.be/iQe5ixN7JkA",
-    img: "/images/market.png",
+    img: "/images/market.jpg",
     title: "Talabat Alternative",
     description:
       "A full Store-Order experience, comprehensive site for ordering products especially food on the Internet, it allows the admin to add, remove and modify products and items from the control panel, receive orders in real time, close the store (stop receiving orders) and set the opening date, and much more!",
@@ -70,7 +70,7 @@ export const Posts = [
     id: "2",
     webSite: "https://free4english.com",
     youtubeVid: "https://youtu.be/bajt1zeD5ZI",
-    img: "/images/free4english.png",
+    img: "/images/free4english.jpg",
     title: "Free4English",
     description:
       "A WebApp that contains the 3600 essential English words, it helps people to study the most common English words in a modren way for free",
@@ -88,8 +88,8 @@ export const Posts = [
     id: "4",
     webSite: "https://yt-clone-ecru.vercel.app/",
     youtubeVid: "https://youtu.be/MMsx4loOZ6U",
-    img: "/images/yt-clone.png",
-    title: "Youtube Clone",
+    img: "/images/my-tube.jpg",
+    title: "My Tube | Youtube Clone",
     description:
       "By using next.js for front and backend, i built a complete YouTube experience.. Sign-up Sign-in, uploading videos, subscribing to channels, liking videos,Commenting, Searching and Some other cool features",
     tags: [
