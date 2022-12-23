@@ -9,17 +9,17 @@ const nextConfig = {
     return [
       {
         source: "/projects/market",
-        destination: "https://market.up.railway.app",
+        destination: "https://store-jo.vercel.app",
         permanent: false,
       },
       {
         source: "/projects/speak-up",
-        destination: "https://speak-up.up.railway.app",
+        destination: "https://speak-up.herokuapp.com",
         permanent: false,
       },
       {
         source: "/projects/free4english",
-        destination: "https://free4english.com",
+        destination: "https://free4english.vercel.app",
         permanent: false,
       },
       {

@@ -1,4 +1,4 @@
-import { DiCss3, DiFirebase, DiJavascript1 } from "react-icons/di"
+import { DiCss3, DiJavascript1 } from "react-icons/di"
 import {
   SiApollographql,
   SiExpress,
@@ -25,7 +25,7 @@ import { IoLogoNodejs } from "react-icons/io"
 export const Posts = [
   {
     id: "3",
-    webSite: "https://speak-up.up.railway.app/",
+    webSite: "https://speak-up.herokuapp.com/",
     youtubeVid: "https://youtu.be/Hhb2CQ9i-Vc",
     img: "/images/speakup.png",
     title: "Speak-Up",
@@ -49,7 +49,7 @@ export const Posts = [
   },
   {
     id: "1",
-    webSite: "https://market.up.railway.app/",
+    webSite: "https://store-jo.vercel.app/",
     youtubeVid: "https://youtu.be/iQe5ixN7JkA",
     img: "/images/market.jpg",
     title: "Talabat Alternative",
@@ -68,7 +68,7 @@ export const Posts = [
   },
   {
     id: "2",
-    webSite: "https://free4english.com",
+    webSite: "https://free4english.vercel.app/",
     youtubeVid: "https://youtu.be/bajt1zeD5ZI",
     img: "/images/free4english.jpg",
     title: "Free4English",
