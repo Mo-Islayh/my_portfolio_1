@@ -47,7 +47,7 @@ const Projects = () => {
 
           <div className="p-2">
             <div className="flex justify-between items-center mb-2">
-              <div className="mb-4 font-bold text-white text-base bg-orange-400 w-fit py-[2px] px-3 rounded-full">
+              <div className="font-bold text-white text-base bg-orange-400 w-fit py-[2px] px-3 rounded-full">
                 {post.title}
               </div>
               <div className="flex gap-3">
@@ -55,7 +55,7 @@ const Projects = () => {
                   href={post.webSite}
                   target={"_blank"}
                   rel="noopener noreferrer"
-                  className="  mb-4 font-bold text-white text-base bg-indigo-500 hover:bg-indigo-600 w-fit py-[2px] px-3 rounded-full flex justify-center items-center gap-2"
+                  className="font-bold text-white text-base bg-indigo-500 hover:bg-indigo-600 w-fit py-[2px] px-3 rounded-full flex justify-center items-center gap-2"
                 >
                   <span>Link</span>
                   <svg
@@ -76,7 +76,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            <div className="mb-3">{post.description}</div>
+            <div className="mb-4">{post.description}</div>
             <div className="mb-4 font-bold text-white text-base bg-blue-400 w-fit py-[2px] px-3 rounded-full">
               Tech used
             </div>
