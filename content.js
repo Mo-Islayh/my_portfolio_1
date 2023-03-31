@@ -46,6 +46,13 @@ export const Posts = [
       "Recoil",
       "Ant Design",
     ],
+    features: [
+      "Voice-Chat and Messaging in Real Time",
+      "Creating custom groups",
+      "Adding and removing friends",
+      "See friends in online groups",
+      "Login Using Google",
+    ],
   },
   {
     id: "1",
@@ -65,6 +72,12 @@ export const Posts = [
       "Firebase",
       "Recoil",
     ],
+    features: [
+      "A full Store-Ordering Experience",
+      "Dashboard for Admin to Add, Remove, Modify and Arrange Products and Items",
+      "Receive orders in real time",
+      "Close the store (stop receiving orders) and set the opening date,",
+    ],
   },
   {
     id: "2",
@@ -82,6 +95,13 @@ export const Posts = [
       "Express",
       "REST API",
       "Tailwind",
+    ],
+    features: [
+      "3600 essential English words",
+      "Play audio, Save cards, Highlight text and more",
+      "Navigate between cards",
+      "Study and Practice on a Card-based layout",
+      "Light and Dark Modes",
     ],
   },
   {
@@ -103,6 +123,17 @@ export const Posts = [
       "Redux",
       "JWT",
       "Mongodb",
+    ],
+    features: [
+      "A complete YouTube experience",
+      "SingIn/SignUp",
+      "Login Using Google Auth",
+      "Uploading videos",
+      "Subscribing to channels",
+      "like and dislike videos",
+      "Commenting",
+      "Searching For Videos",
+      "Trend Videos",
     ],
   },
 ]
@@ -214,14 +245,7 @@ export const BackendSkiles = [
   {
     name: "REST API",
     icon: (
-      <div
-        style={{
-          border: "1px solid #fff",
-          borderRadius: "50%",
-          fontSize: "8px",
-          padding: "2px",
-        }}
-      >
+      <div style={{}} className="">
         API
       </div>
     ),
@@ -334,10 +358,9 @@ export const Skills = [
     icon: (
       <div
         style={{
-          border: "1px solid #fff",
-          borderRadius: "50%",
-          fontSize: "8px",
-          padding: "2px",
+          background: "#7676764d",
+          borderRadius: "6px",
+          fontSize: "10px",
         }}
       >
         API
