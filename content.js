@@ -26,7 +26,7 @@ export const Posts = [
   {
     id: "3",
     webSite: "https://speak-up.herokuapp.com/",
-    youtubeVid: "https://youtu.be/Hhb2CQ9i-Vc",
+    youtubeVid: "Hhb2CQ9i-Vc",
     img: "/images/speakup.png",
     title: "Speak-Up",
     description:
@@ -50,7 +50,7 @@ export const Posts = [
   {
     id: "1",
     webSite: "https://store-jo.vercel.app/",
-    youtubeVid: "https://youtu.be/iQe5ixN7JkA",
+    youtubeVid: "iQe5ixN7JkA",
     img: "/images/market.jpg",
     title: "Talabat Alternative",
     description:
@@ -69,7 +69,7 @@ export const Posts = [
   {
     id: "2",
     webSite: "https://free4english.vercel.app/",
-    youtubeVid: "https://youtu.be/bajt1zeD5ZI",
+    youtubeVid: "bajt1zeD5ZI",
     img: "/images/free4english.jpg",
     title: "Free4English",
     description:
@@ -87,9 +87,9 @@ export const Posts = [
   {
     id: "4",
     webSite: "https://yt-clone-ecru.vercel.app/",
-    youtubeVid: "https://youtu.be/MMsx4loOZ6U",
+    youtubeVid: "MMsx4loOZ6U",
     img: "/images/my-tube.jpg",
-    title: "My Tube | Youtube Clone",
+    title: "My Tube | Video App",
     description:
       "By using next.js for front and backend, i built a complete YouTube experience.. Sign-up Sign-in, uploading videos, subscribing to channels, liking videos,Commenting, Searching and Some other cool features",
     tags: [
@@ -105,6 +105,162 @@ export const Posts = [
       "Mongodb",
     ],
   },
+]
+
+export const FrontEndSkills = [
+  {
+    name: "HTML",
+    icon: <AiFillHtml5 />,
+  },
+  {
+    name: "CSS",
+    icon: <DiCss3 />,
+  },
+  {
+    name: "JavaScript",
+    icon: <DiJavascript1 />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
+  },
+  {
+    name: "ReactJS",
+    icon: <GrReactjs />,
+  },
+  {
+    name: "NextJS",
+    icon: <TbBrandNextjs />,
+  },
+  {
+    name: "React-Native",
+    icon: <FaReact />,
+  },
+  {
+    name: "Tailwind",
+    icon: <SiTailwindcss />,
+  },
+  {
+    name: "Ant Design",
+    icon: <AiOutlineAntDesign />,
+  },
+  {
+    name: "Material UI",
+    icon: <SiMaterialui />,
+  },
+  {
+    name: "Bootstrap",
+    icon: <FaBootstrap />,
+  },
+  {
+    name: "Apollo Client(GQL)",
+    icon: <SiApollographql />,
+  },
+  {
+    name: "styled-components",
+    icon: <SiStyledcomponents />,
+  },
+  {
+    name: "Recoil",
+    icon: <SiReduxsaga />,
+  },
+  {
+    name: "Redux",
+    icon: <SiRedux />,
+  },
+  {
+    name: "React Query",
+    icon: <TbBrandReactNative />,
+  },
+  {
+    name: "Socket.io",
+    icon: <SiSocketdotio />,
+  },
+  {
+    name: "webRTC",
+    icon: <SiWebrtc />,
+  },
+]
+export const BackendSkiles = [
+  {
+    name: "NodeJS",
+    icon: <IoLogoNodejs />,
+  },
+
+  {
+    name: "Express",
+    icon: <SiExpress />,
+  },
+  {
+    name: "GraphQL",
+    icon: <SiGraphql />,
+  },
+  {
+    name: "Apollo Server",
+    icon: <SiApollographql />,
+  },
+  {
+    name: "JavaScript",
+    icon: <DiJavascript1 />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
+  },
+  {
+    name: "NextJS",
+    icon: <TbBrandNextjs />,
+  },
+  {
+    name: "REST API",
+    icon: (
+      <div
+        style={{
+          border: "1px solid #fff",
+          borderRadius: "50%",
+          fontSize: "8px",
+          padding: "2px",
+        }}
+      >
+        API
+      </div>
+    ),
+  },
+  {
+    name: "Socket.io",
+    icon: <SiSocketdotio />,
+  },
+  {
+    name: "webRTC",
+    icon: <SiWebrtc />,
+  },
+  {
+    name: "JWT",
+    icon: <SiJsonwebtokens />,
+  },
+]
+
+export const DataBases = [
+  {
+    name: "Mongodb",
+    icon: <SiMongodb />,
+  },
+  {
+    name: "Postgres",
+    icon: <SiPostgresql />,
+  },
+  {
+    name: "Firebase",
+    icon: <SiFirebase />,
+  },
+]
+
+export const DevOpsSkiles = [
+  { name: "Docker", icon: null },
+  { name: "AWS", icon: null },
+  { name: "Google Cloud", icon: null },
+  { name: "Microsoft Azure", icon: null },
+  { name: "Heroku", icon: null },
 ]
 
 export const Skills = [
