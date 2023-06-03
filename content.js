@@ -106,10 +106,10 @@ export const Posts = [
   },
   {
     id: "4",
-    webSite: "https://yt-clone-ecru.vercel.app/",
+    webSite: "https://playback-stream.vercel.app/",
     youtubeVid: "MMsx4loOZ6U",
     img: "/images/my-tube.jpg",
-    title: "My Tube | Video App",
+    title: "PlayBack | Video Streaming",
     description:
       "By using next.js for front and backend, i built a complete YouTube experience.. Sign-up Sign-in, uploading videos, subscribing to channels, liking videos,Commenting, Searching and Some other cool features",
     tags: [
@@ -125,8 +125,8 @@ export const Posts = [
       "Mongodb",
     ],
     features: [
-      "A complete YouTube experience",
-      "SingIn/SignUp",
+      "A complete Video Streaming experience",
+      "Full SingIn/SignUp implementation",
       "Login Using Google Auth",
       "Uploading videos",
       "Subscribing to channels",

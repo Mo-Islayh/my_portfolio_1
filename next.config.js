@@ -24,7 +24,7 @@ const nextConfig = {
       },
       {
         source: "/projects/my_tube",
-        destination: "https://yt-clone-ecru.vercel.app",
+        destination: "https://playback-stream.vercel.app",
         permanent: false,
       },
     ]
